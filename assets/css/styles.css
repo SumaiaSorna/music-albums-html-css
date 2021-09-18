@@ -1,3 +1,22 @@
 .header {
   border: 1px solid black;
 }
+
+.nav-container {
+  border: 1px solid red;
+  margin: 10px;
+  list-style: none;
+  /* flex properties */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+/* .nav-item:last-child > a {
+  color: red;
+  text-decoration: none;
+} */
