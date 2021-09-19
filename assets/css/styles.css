@@ -45,6 +45,7 @@ body {
 .link-container {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 .title {
   margin-bottom: 20px;
@@ -60,6 +61,33 @@ body {
   margin: 0px 10px;
   text-decoration: none;
   color: black;
+}
+.btn-primary {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0d6dfdb0;
+  font-weight: 700;
+}
+
+.btn-primary:active {
+  background-color: #0d6efd;
+}
+
+.btn-secondary {
+  background-color: #1db149;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #1db1499f;
+  font-weight: 700;
+}
+
+.btn-secondary:active {
+  background-color: #1db149;
 }
 
 @media screen and (max-width: 576px) {
