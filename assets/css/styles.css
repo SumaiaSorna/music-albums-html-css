@@ -9,7 +9,7 @@ body {
 .nav-container {
   /* border: 1px solid red; */
 
-  /* shorthand css  */
+  /* shorthand css padding top and bottom,left and right  */
   padding: 20px 10px;
 
   list-style: none;
@@ -20,7 +20,7 @@ body {
 }
 
 .nav-item {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 /* .nav-item:last-child > a {
@@ -38,9 +38,40 @@ body {
   color: white;
 }
 
+.banner {
+  text-align: center;
+  padding: 150px 75px;
+}
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  margin-bottom: 20px;
+}
+.content {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 576px) {
   .nav-container {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
+}
+.nav-item a {
+  padding: 20px;
+}
+.link-container {
+  flex-direction: column;
 }
